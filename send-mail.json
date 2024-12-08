@@ -1,0 +1,16 @@
+{
+  "message": {
+    "subject": "Meeting",
+    "body": {
+      "contentType": "Text",
+      "content": "This is a test mail. send from 365-steler script --send-mail"
+    },
+    "toRecipients": [
+      {
+        "emailAddress": {
+          "address": "test@example.com"
+        }
+      }
+    ]
+  }
+}
